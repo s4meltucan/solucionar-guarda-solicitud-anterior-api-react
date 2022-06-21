@@ -29,7 +29,7 @@ const PintarDatos = ({ nombrePersonaje }) => {
       }
 
       const datos = await res.json()
-      console.log(datos.results);
+      // console.log(datos.results);
       setPersonajes(datos.results)
 
     } catch (error) {

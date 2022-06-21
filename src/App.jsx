@@ -8,7 +8,7 @@ const App = () => {
   const [nombrePersonaje, setNombrePersonaje] = useState('')
 
   useEffect(() => {
-    console.log(localStorage.getItem("nombreApi"));
+    // console.log(localStorage.getItem("nombreApi"));
     if(localStorage.getItem("nombreApi")){
         setNombrePersonaje(JSON.parse(localStorage.getItem("nombreApi")));
     }
